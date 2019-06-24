@@ -1,0 +1,18 @@
+{
+  "name": "vlce-receiver",
+  "main": "./lib/vlce-receiver",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "vlce-receiver:toggle"
+  },
+  "repository": "https://github.com/atom/vlce-receiver",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "node-osc": "^4.1.0"
+  }
+}

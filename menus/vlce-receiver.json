@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle vlce-receiver",
+        "command": "vlce-receiver:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "vlce-receiver",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "vlce-receiver:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
